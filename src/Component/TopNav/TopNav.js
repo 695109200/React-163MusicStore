@@ -3,7 +3,6 @@ import './TopNav.css'
 class TopNav extends Component {
     render() {
         return (
-            <div>
                 <div className="topNav">
                     <div className="topNavBox">
                         <a href="javascript:;"><div className="topNavBoxIcon"></div></a>
@@ -11,18 +10,27 @@ class TopNav extends Component {
                     <div className="avatarBox">
                         <img src="http://p3.music.126.net/gyoekwwpfuRpRvJwasP4jw==/109951163669765335.jpg?param=36y36" className="avatar"></img>
                         <div className="bottonIcon"></div>
+
+
                         <div className="hiddenLi">
-                            <ul>
-                                <li><img src="https://s2.music.126.net/store/web/img/myorder.png?ce189fbe4dd6b7e49e2947dc437272ac" className="li1"></img>我的订单</li>
-                                <li><img src="https://s2.music.126.net/store/web/img/myorder.png?ce189fbe4dd6b7e49e2947dc437272ac" className="li1"></img>我的优惠卷</li>
-                                <li><img src="https://s2.music.126.net/store/web/img/myorder.png?ce189fbe4dd6b7e49e2947dc437272ac" className="li1"></img>我的收货地址</li>
-                                <li><img src="https://s2.music.126.net/store/web/img/myorder.png?ce189fbe4dd6b7e49e2947dc437272ac" className="li1"></img>网易云音乐首页</li>
-                                <li>退出</li>
-                            </ul>
+                            {/* <ul>
+                                <li><div className="li1"></div>我的订单</li>
+                                <li><div  className="li1"></div>我的优惠卷</li>
+                                <li><div  className="li1"></div>我的收货地址</li>
+                                <li><div  className="li1"></div>网易云音乐首页</li>
+                                <li><div  className="li1"></div>退出</li>
+                            </ul> */}
+
+                            <div className="li1"><div className="liIcon liI"></div>我的订单</div>
+                            <div className="li1"><div className="liIcon2 liI"></div>我的优惠卷</div>
+                            <div className="li1"><div className="liIcon3 liI"></div>我的收货地址</div>
+                            <div className="li1"><div className="liIcon4 liI"></div>网易云音乐首页</div>
+                            <div className="li2"><div className="liIcon5 liI2"></div>退出</div>
                         </div>
+
+
+
                     </div>
-
-
                         <div className="shopCartIcon">
                             <div className="shopCarL">
                                 0
@@ -40,7 +48,6 @@ class TopNav extends Component {
 
                     </div>
                 </div>
-            </div>
         );
     }
 }

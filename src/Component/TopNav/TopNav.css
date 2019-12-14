@@ -102,6 +102,7 @@ input,button,select,textarea{
     display: block;
 }
 .hiddenLi{
+    font-size: 12px;
     display: none;
     position: relative;
     left: -61px;
@@ -112,37 +113,68 @@ input,button,select,textarea{
     box-shadow: 0 4px 7px #555;
     text-shadow: 0 1px 0 rgba(255, 255, 255, 0.9);
 }
-.hiddenLi >ul>li>img{
-    
-}
-.hiddenLi >ul>li{
-    padding-left: 70px;
-    font-size: 12px;
-    color: #333;
-    background-color: #fff;
-    height: 35px;
-    text-align: left;
-    cursor:pointer;
-    line-height: 35px;
-}
-.hiddenLi >ul>li:last-child{
-    border-top:1px solid rgb(247, 247, 247) ;
-    height: 35px;
-    line-height: 35px;
-    text-align: center;
-    padding: 0;
-}
-.hiddenLi >ul>li:hover{
-    background-color: rgb(247, 247, 247);
-}
-.hiddenLi >ul>li>a{
-    margin-left:10px; 
+.li2{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    border-top:1px solid rgb(247, 247, 247);
 }
 .li1{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+}
+.li1:hover{
+    background-color: rgb(247, 247, 247);
+}
+.li2:hover{
+    background-color: rgb(247, 247, 247);
+}
+.liIcon{
+    float: left;
     width: 18px;
     height: 18px;
-    margin-left: -40px;
-    margin-right: 10px;
+    background-image: url(https://s2.music.126.net/store/web/img/myorder.png?ce189fbe4dd6b7e49e2947dc437272ac);
+}
+.liIcon2{
+    float: left;
+    width: 18px;
+    height: 18px;
+    background-image: url(https://s2.music.126.net/store/web/img/sprite/logins.png?335474bae9aee0d1e27e4220608f8b65);
+    background-position: 0px -28px;
+}
+.liIcon3{
+    float: left;
+    width: 18px;
+    height: 18px;
+    background-image: url(https://s2.music.126.net/store/web/img/sprite/logins.png?335474bae9aee0d1e27e4220608f8b65);
+    background-position: 0px -0px;
+}
+.liIcon4{
+    float: left;
+    width: 18px;
+    height: 18px;
+    background-image: url(https://s2.music.126.net/store/web/img/sprite/logins.png?335474bae9aee0d1e27e4220608f8b65);
+    background-position: -28px -0px;
+}
+.liIcon5{
+    float: left;
+    width: 18px;
+    height: 18px;
+    background-image: url(https://s2.music.126.net/store/web/img/sprite/logins.png?335474bae9aee0d1e27e4220608f8b65);
+    background-position: -56px -0px;
+}
+.liI{
     position: relative;
-    top: 5px;
+    top: 6px;
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+.liI2{
+    position: relative;
+    top: 11px;
+    margin-left: 15px;
+    margin-right: 15px;
+
 }
