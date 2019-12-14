@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class TopNav extends Component {
+class Affect extends Component {
     render() {
         return (
             <div>
@@ -10,4 +10,4 @@ class TopNav extends Component {
     }
 }
 
-export default TopNav;
+export default Affect;

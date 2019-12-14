@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import Router from './router'
-class App extends Component {
+import './Home.css';
+import TopNav from '../../Component/TopNav/TopNav';
+class Home extends Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -10,10 +11,9 @@ class App extends Component {
     render() {
         return (
             <div>
-                <Router></Router>
+                <TopNav></TopNav>
             </div>
         );
     }
 }
-
-export default App;
+export default Home;
