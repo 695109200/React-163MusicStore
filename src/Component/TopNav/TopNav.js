@@ -13,14 +13,6 @@ class TopNav extends Component {
 
 
                         <div className="hiddenLi">
-                            {/* <ul>
-                                <li><div className="li1"></div>我的订单</li>
-                                <li><div  className="li1"></div>我的优惠卷</li>
-                                <li><div  className="li1"></div>我的收货地址</li>
-                                <li><div  className="li1"></div>网易云音乐首页</li>
-                                <li><div  className="li1"></div>退出</li>
-                            </ul> */}
-
                             <div className="li1"><div className="liIcon liI"></div>我的订单</div>
                             <div className="li1"><div className="liIcon2 liI"></div>我的优惠卷</div>
                             <div className="li1"><div className="liIcon3 liI"></div>我的收货地址</div>

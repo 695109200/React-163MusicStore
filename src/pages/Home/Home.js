@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import './Home.css';
 import TopNav from '../../Component/TopNav/TopNav';
-import Carousel from '../../Component/Carousel/Carousel'
+import Carousel from '../../Component/Carousel/Carousel';
+import MiddleNav from '../../Component/MiddleNav/MiddleNav'
+
 class Home extends Component {
     constructor(props) {
         super(props);
@@ -14,6 +16,7 @@ class Home extends Component {
             <div>
                 <TopNav></TopNav>
                 <Carousel/>
+                <MiddleNav/>
             </div>
         );
     }
