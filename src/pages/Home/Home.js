@@ -3,7 +3,8 @@ import './Home.css';
 import TopNav from '../../Component/TopNav/TopNav';
 import Carousel from '../../Component/Carousel/Carousel';
 import MiddleNav from '../../Component/MiddleNav/MiddleNav'
-
+import Hot from '../../Component/Hot/Hot'
+import Recommend from '../../Component/Recommend/Recommend'
 class Home extends Component {
     constructor(props) {
         super(props);
@@ -17,6 +18,8 @@ class Home extends Component {
                 <TopNav></TopNav>
                 <Carousel/>
                 <MiddleNav/>
+                <Recommend/>
+                {/* <Hot/> */}
             </div>
         );
     }

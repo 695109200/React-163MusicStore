@@ -1,0 +1,173 @@
+.RecommendBox{
+    width: 1100px;
+    height: 816px;
+    margin: 0 auto;
+    /* overflow: hidden; */
+
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-center;
+    align-items: center;
+    justify-content: space-around;
+}
+.RecommendLiBox{
+    width: 263px;
+    height: 382px;
+    text-align: center;
+    font-size: 14px;
+    position: relative;
+    margin-bottom: 25px;
+
+}
+
+.RecommendTitle{
+    height: 31px;
+    line-height: 31px;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+.newPay{
+    width: 60px;
+    height: 20px;
+    background-color: rgba(0, 0, 0, 0);
+    text-align: center;
+    font-size: 15px;
+    cursor: pointer;
+    color: #ffffff;
+    margin-top: 10px;
+}
+.oldPay{
+    width: 30px;
+    height: 17px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0);
+    text-decoration: line-through;
+    color: #ffffff;
+    opacity: 0.6;
+}
+.oldPayBox{
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    background-color: #d74d45;
+    border-radius: 50%;
+    top: 10px;
+    left: 10px;
+}
+.RecommendBoxImg{
+    width: 263px;
+    height: 263px;
+    background-color: rgb(249, 249, 249)
+}
+.RecommendBoxTtitle{
+    height: 37px;
+    width: 263px;
+    margin-top: 10px;
+}
+.tag{
+    width: 32px;
+    height: 18px;
+    border: 1px solid #d74d45;
+text-align: center;
+color: #d74d45;
+    font-style: normal;
+    text-align: left;
+    font-size: inherit;
+    margin-right: 5px;
+    padding: 0 3px;
+}
+.RecommendPay{
+    width: 263px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    color: #d74d45;
+    font-size: 16px;
+    margin-top: 10px;
+
+}
+.digalb{
+    width: 1100px;
+    height: 180px;
+    margin: 0 auto;
+    background-color: rgb(249, 249, 249);
+    overflow: hidden;
+    position: relative;
+}
+.inner{
+    padding-top: 28px;
+    width: 700px;
+    height: 180px;
+    margin: 0 20px 0 60px;
+    background-color: rgb(249, 249, 249);
+}
+.innerIcon{
+    background-image: url(https://s2.music.126.net/store/web/img/digitalicon.png?155a6263f13ee0786593238cf0e60240);
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    margin-right: 10px;
+}
+.innerTxt{
+    font-size: 32px;
+    font-weight: bold;
+    background-color: rgb(249, 249, 249);
+}
+.innerBox{
+    width: 700px;
+    height: 180px;
+    /* padding-top: 28px; */
+    background-color: rgb(249, 249, 249);
+}
+.innerTxt2{
+    background-color: rgb(249, 249, 249);
+    height: 21px;
+    margin-top: 9px;
+}
+.innerTxt3{
+    margin-top: 18px;
+    font-size: 24px;
+    font-weight: bold;
+    height: 31px;
+    background-color: rgb(249, 249, 249);
+    display: block;
+}
+.covers{
+position: absolute;
+top: 30px;
+right: 50px;
+width: 210px;
+height: 120px;
+background-color: rgb(249, 249, 249);
+
+}
+.coversImg1{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    z-index: 1;
+    top: 15px;
+}
+.coversImg2{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    z-index: 2;
+    left: 60px;
+}
+.coverIcon{
+    width: 35px;
+    position: absolute;
+    top: 0;
+    left: 175px;
+    border: none;
+        height: 120px;
+        background-image: url(https://s2.music.126.net/store/web/img/sprite/pointlist.png?b774cdb2a127219570ae16718699867d);
+        background-position: 0px -73px;
+        background-color: rgb(249, 249, 249);
+
+}
