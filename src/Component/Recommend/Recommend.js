@@ -725,9 +725,6 @@ class Recommend extends Component {
             }
         };
     }
-    componentDidMount() {
-        console.log(this.state.RecommendData.hotProduct)
-    }
     render() {
         return (
             <div className="RecommendBox">
@@ -746,20 +743,21 @@ class Recommend extends Component {
                     )
                 })}
                 <div className="digalb">
-                <div className="inner">
-                    <div className="innerBox">
-                        <span className="innerIcon"></span>
-                        <span className="innerTxt">数字专辑</span>
-                        <p className="innerTxt2">Taylor Swift 新专辑火热售卖中</p>
-                        <a className="innerTxt3">立 即 购 买 ></a>
+                    <div className="inner">
+                        <div className="innerBox">
+                            <span className="innerIcon"></span>
+                            <span className="innerTxt">数字专辑</span>
+                            <p className="innerTxt2">Taylor Swift 新专辑火热售卖中</p>
+                            <a className="innerTxt3">立 即 购 买 ></a>
                         </div>
                     </div>
-                    
+
                     <div className="covers">
                         <img src="https://p1.music.126.net/D1gL45hPNWNxoq1Foanh6Q==/109951164370176967.jpg?param=120y120" className="coversImg1"></img>
                         <img src="https://p2.music.126.net/6CB6Jsmb7k7qiJqfMY5Row==/109951164260234943.jpg?param=120y120" className="coversImg2"></img>
                         <i className="coverIcon"></i>
                     </div>
+
                 </div>
             </div>
         );

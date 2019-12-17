@@ -53,6 +53,7 @@ input,button,select,textarea{
     background-image: url(https://s2.music.126.net/store/web/img/sprite/modules.png?b0714ee0dd25395c35fd2a0b73eb4130);
     background-position:-110px -158px;
     margin: 17px 25px 0 41px;
+    cursor:pointer;
 }
 .shopCarL{
     position: relative;

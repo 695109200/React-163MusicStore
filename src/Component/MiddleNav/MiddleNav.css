@@ -11,6 +11,7 @@
     }
 .MiddleBox{
     padding-left: 76px;
+    cursor:pointer;
 }
 .MiddleIcon{
     width: 48px;
@@ -69,11 +70,13 @@
     float: left;
     width: 542px;
     height: 300px;
+    cursor:pointer;
 }
 .MiddleBottomImg1{
     float: right;
     width: 542px;
     height: 300px;
+    cursor:pointer;
 }
 .Middle{
     width: 100%;
