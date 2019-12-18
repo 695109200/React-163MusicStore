@@ -25,7 +25,8 @@ input,button,select,textarea{
     width: 290px;
     height: 70px;
     background-image: url(https://s2.music.126.net/store/web/img/sprite/modules.png?b0714ee0dd25395c35fd2a0b73eb4130);
-    background-position:0px -48px; 
+    background-position:0px -48px;
+    cursor: pointer; 
 }
 .topNavSearchBox{
     width: 300px;

@@ -1,0 +1,65 @@
+.RightNavBox{
+    width: 60px;
+    height: auto;
+    position: fixed;
+    top: 50%;
+    margin-top: -138px;
+    bottom: auto;
+    right: 150px;
+    border: 1px solid rgba(0, 0, 0,0.4);
+    transition: 0.5s;
+}
+.RightNavBox1{
+    width: 60px;
+    height: auto;
+    position: fixed;
+    top: 774px;
+    margin-top: -138px;
+    bottom: auto;
+    right: 150px;
+    border: 1px solid rgba(0, 0, 0,0.4);
+    transition: 0.5s;
+}
+.RightNavLi{
+    width: 60px;
+    height: 47px;
+    color: #666666;
+    display:block;
+    font-size: 12px;
+    text-align: center;
+    cursor: pointer;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding-top: 13px;
+    position: relative;
+}
+.CarLenIcon{
+    width: 18px;
+    height: 18px;
+    background-image: url(https://s2.music.126.net/store/web/img/sprite/modules.png?b0714ee0dd25395c35fd2a0b73eb4130);
+    background-position: -156px -158px;
+    position: absolute;
+    top: 7px;
+    left: 31px;
+    background-color: rgba(0, 0, 0, 0);
+    color: #ffffff;
+}
+.RightNavLi:last-child{
+    background-image: url(https://s2.music.126.net/store/web/img/sprite/totop.png?37b31191e3e43b9dc7396a0dae4901ed);
+    width: 60px;
+    height:19px;
+    background-position: -70px -0px;
+}
+.KFIcon{
+    background-image: url(https://s2.music.126.net/store/web/img/sprite/totop.png?37b31191e3e43b9dc7396a0dae4901ed);
+    width: 20px;
+    height: 20px;
+    margin: 0px 0px 5px 19px;
+    background-position: 0px -101px;
+}
+.CarIcon{
+    background-image: url(https://s2.music.126.net/store/web/img/sprite/totop.png?37b31191e3e43b9dc7396a0dae4901ed);
+    width: 20px;
+    height: 20px;
+    margin: 0px 0 5px 17px;
+    background-position: 0px -71px;
+}

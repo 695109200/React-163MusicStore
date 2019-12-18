@@ -53,10 +53,12 @@
     border-radius: 50%;
     top: 10px;
     left: 10px;
+    z-index: 999;
 }
+
 .RecommendBoxImg:hover{
     position: relative;
-    z-index: 999;
+    z-index: 988;
     transform:scale(1.1);
 }
 .RecommendBoxImg{

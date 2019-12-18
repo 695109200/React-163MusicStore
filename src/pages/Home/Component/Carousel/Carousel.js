@@ -47,11 +47,11 @@ class Carousel extends Component {
 
                 <div className="dots">
                     <div className="selfBox">
-                    <a href="javascript:;" className={this.state.active===1?"self1":'self'} id="1" onClick={this.chanche.bind(this,1)}></a>
-                    <a href="javascript:;" className={this.state.active===2?"self1":'self'} id="2" onClick={this.chanche.bind(this,2)}></a>
-                    <a href="javascript:;" className={this.state.active===3?"self1":'self'} id="3" onClick={this.chanche.bind(this,3)}></a>
-                    <a href="javascript:;" className={this.state.active===4?"self1":'self'} id="4" onClick={this.chanche.bind(this,4)}></a>
-                    <a href="javascript:;" className={this.state.active===5?"self1":'self'} id="5" onClick={this.chanche.bind(this,5)}></a>
+                    <i href="javascript:;" className={this.state.active===1?"self1":'self'} id="1" onClick={this.chanche.bind(this,1)}></i>
+                    <i href="javascript:;" className={this.state.active===2?"self1":'self'} id="2" onClick={this.chanche.bind(this,2)}></i>
+                    <i href="javascript:;" className={this.state.active===3?"self1":'self'} id="3" onClick={this.chanche.bind(this,3)}></i>
+                    <i href="javascript:;" className={this.state.active===4?"self1":'self'} id="4" onClick={this.chanche.bind(this,4)}></i>
+                    <i href="javascript:;" className={this.state.active===5?"self1":'self'} id="5" onClick={this.chanche.bind(this,5)}></i>
                     </div>
                 </div>
             </div>

@@ -1,18 +1,15 @@
 import React, { Component } from 'react';
 import './Home.css';
-import TopNav from '../../Component/TopNav/TopNav';
-import Carousel from '../../Component/Carousel/Carousel';
-import MiddleNav from '../../Component/MiddleNav/MiddleNav'
-import Hot from '../../Component/Hot/Hot'
-import Recommend from '../../Component/Recommend/Recommend'
-import BottomNav from '../../Component/BottomNav/BottomNav'
+import TopNav from './Component/TopNav/TopNav';
+import Carousel from './Component/Carousel/Carousel';
+import MiddleNav from './Component/MiddleNav/MiddleNav'
+import Hot from './Component/Hot/Hot'
+import Recommend from './Component/Recommend/Recommend'
+import BottomNav from './Component/BottomNav/BottomNav'
+import RightNav from './Component/RightNav/RightNav'
+
 class Home extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-        
-        };
-    }
+    
     render() {
         return (
             <div>
@@ -21,6 +18,7 @@ class Home extends Component {
                 <MiddleNav/>
                 <Recommend/>
                 <Hot/>
+                <RightNav/>
                 <BottomNav/>
             </div>
         );
